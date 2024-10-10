@@ -9,12 +9,14 @@
     <version>1.0.0</version>
     <packaging>aar</packaging>
 
-    <!-- Repositories to resolve AndroidX libraries -->
+    <!-- Repositories to resolve dependencies -->
     <repositories>
+        <!-- Google's repository for AndroidX dependencies -->
         <repository>
             <id>google</id>
             <url>https://maven.google.com</url>
         </repository>
+        <!-- Maven Central for general Java dependencies -->
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
@@ -46,13 +48,13 @@
             <type>aar</type>
         </dependency>
 
-        <!-- Trove4J -->
-<!--         <dependency>
+        <!-- Trove4J from Maven Central -->
+        <dependency>
             <groupId>org.trove4j</groupId>
             <artifactId>trove4j</artifactId>
             <version>1.0.20200330</version>
         </dependency>
- -->
+
         <!-- AndroidX VersionedParcelable -->
         <dependency>
             <groupId>androidx.versionedparcelable</groupId>
