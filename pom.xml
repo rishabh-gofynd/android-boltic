@@ -21,6 +21,7 @@
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
+
     </repositories>
 
     <dependencies>
@@ -49,20 +50,6 @@
         </dependency>
 
         <!-- Trove4J from Maven Central -->
-             <repositories>
-    `            <repository>
-                  <id>central</id>
-                 <url>https://repo.maven.apache.org/maven2</url>
-             </repository>
-         </repositories>
-             <dependency>
-
-        <dependency>
-            <groupId>org.trove4j</groupId>
-            <artifactId>trove4j</artifactId>
-            <version>1.0.20200330</version>
-        </dependency>
-
         <!-- AndroidX VersionedParcelable -->
         <dependency>
             <groupId>androidx.versionedparcelable</groupId>
