@@ -47,12 +47,12 @@
         </dependency>
 
         <!-- Trove4J -->
-        <dependency>
+<!--         <dependency>
             <groupId>org.trove4j</groupId>
             <artifactId>trove4j</artifactId>
             <version>1.0.20200330</version>
         </dependency>
-
+ -->
         <!-- AndroidX VersionedParcelable -->
         <dependency>
             <groupId>androidx.versionedparcelable</groupId>
